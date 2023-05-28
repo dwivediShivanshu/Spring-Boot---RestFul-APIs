@@ -1,0 +1,11 @@
+{
+	"folders": [
+		{
+			"name": "crudapplication",
+			"path": "."
+		}
+	],
+	"settings": {
+		"java.configuration.updateBuildConfiguration": "interactive"
+	}
+}
