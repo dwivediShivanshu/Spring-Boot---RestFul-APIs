@@ -14,7 +14,7 @@ import com.example.crudapplication.model.receipt.Receipt;
 public class ReceiptService {
 
     public Double getPoints(Receipt receipt) {
-
+        System.out.println("getPoints method");
         Double points = getPointsFromRetailerName(receipt.getRetailer())
                 + getPointsFromTotal(receipt.getTotal())
                 + getPointsFromItemDescription(receipt.getItems())
