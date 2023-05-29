@@ -4,7 +4,7 @@
 
 * Pull the code from the github.
 * Go to the root of the code repo
-* Run this command - "docker compose -f docker-compose.yaml up -d" (make sure docker-compose.yaml is in the root dir)
+* Run this command - "docker compose -f docker-compose.yaml up -d" (make sure you are in the same dir as docker-compose.yaml)
 * This command will up the Spring container on port 8080.
 
 # APIs supported
