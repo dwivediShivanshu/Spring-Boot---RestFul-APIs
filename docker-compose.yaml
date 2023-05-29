@@ -10,8 +10,8 @@ services:
       - MONGO_INITDB_ROOT_USERNAME=rootuser
       - MONGO_INITDB_ROOT_PASSWORD=rootpass
   springboot-mongodb:
-    image: springboot-mongo:latest
-    container_name: springboot-mongodb
+    image: shiv232/springboot-practice:latest
+    container_name: springboot-practice
     environment:
       - ME_CONFIG_MONGODB_ADMINUSERNAME=rootuser
       - ME_CONFIG_MONGODB_ADMINPASSWORD=rootpass
