@@ -9,6 +9,6 @@
 
 # APIs supported
 
-* localhost:8080/receipts
+* localhost:8080/receipts/
 * localhost:8080/receipts/id/points
 * localhost:8080/receipts/process
